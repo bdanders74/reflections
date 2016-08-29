@@ -12,3 +12,9 @@
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 	So you have the most recent remote copy available for use offline. Plus then you dont have to download it each time you want to look at it.
+
+5. How would you collaborate without using Git or GitHub? What would be easier and what would be harder?
+	Email and pushing full project directories around
+	Easier: Nothing
+	Harder: Version control. How do you know what is up to date?
+			Multiple copies floating around
