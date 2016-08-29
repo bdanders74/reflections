@@ -7,3 +7,23 @@
    What value do you think it offers?
    	Staging Area is an intermediate step between working directory and repository. 
    	Valuable because it allows you to make changes to the repository without actually committing those changes.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+	You can only add the files for each logical change into the staging area and commit them one at a time.
+
+4. What are some situations when brances would be helpful in keeping your history organized? How would branches help?
+	You can use branches to add code changes that you may not want to put into the master branch. Different branches
+	would allow for multiple changes that may/may not end up in the production version.
+
+5. How do the diagrams help you visualize the branch structure?
+	The diagrams help you with how each commit is related to other commits. Parents, etc...
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Combine all commits withing those two branches. We diagram it so we can see how those commits are related to each other.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	Pros:
+		Quick
+
+	Cons: 
+		Merge assumptions may not be correct
