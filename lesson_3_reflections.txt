@@ -18,3 +18,8 @@
 	Easier: Nothing
 	Harder: Version control. How do you know what is up to date?
 			Multiple copies floating around
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	Create a new branch when you want to build a feature or change that you aren't sure if you want to incorporate into master yet.
+	New branch benefits: encapsulated changes that you can discard without harming master
+	Changes in master benefits: Less overhead maintaining multiple branches
